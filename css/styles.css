@@ -12,6 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: var(--body-text);
+  background-color: var(--white);
 }
 ul,
 ol {
@@ -74,6 +75,7 @@ button {
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-address-list {
@@ -105,6 +107,8 @@ button {
   line-height: 1.08;
   letter-spacing: 0.02em;
   color: var(--white);
+  line-height: 1.07;
+  text-align: center;
 }
 
 .btn-hero {
@@ -133,6 +137,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--main-dark);
+  text-align: center;
 }
 
 .services-title {
@@ -172,6 +177,7 @@ button {
 }
 
 .team-member {
+  background: var(--white);
 }
 
 .team-photo {
