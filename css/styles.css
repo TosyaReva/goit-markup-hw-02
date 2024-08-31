@@ -1,0 +1,219 @@
+/* main */
+:root {
+  --main-dark: #2e2f42;
+  --primary-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --body-text: #434455;
+  --white: #ffffff;
+  --light-white: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: var(--body-text);
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: currentColor;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
+/* Header Section */
+
+.header {
+}
+
+.header-nav {
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.header-logo {
+}
+
+.header-logo-dark {
+  color: var(--main-dark);
+}
+
+.header-nav-list {
+}
+
+.header-nav-item {
+}
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-dark);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.header-address {
+}
+
+.header-address-list {
+}
+
+.header-address-item {
+}
+
+.header-address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--pressed-state-color);
+}
+
+/* Hero Section */
+
+.hero {
+  background-color: var(--main-dark);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.08;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.btn-hero {
+  background-color: var(--primary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+  background-color: var(--pressed-state-color);
+  color: var(--white);
+}
+
+/* Features Section */
+
+.services {
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--main-dark);
+}
+
+.services-title {
+}
+
+.services-list {
+}
+
+.service-item {
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-dark);
+}
+
+.subsection {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.our-services {
+}
+
+/* Team Section */
+
+.team {
+  background-color: var(--light-white);
+}
+
+.team-title {
+}
+
+.team-list {
+}
+
+.team-member {
+}
+
+.team-photo {
+}
+
+.team-position {
+}
+
+/* Portfolio Section */
+
+.portfolio {
+}
+
+.portfolio-title {
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-photo {
+}
+
+.our-portfolio {
+}
+
+/* Footer */
+
+.site-footer {
+  background: var(--main-dark);
+}
+
+.footer-logo {
+}
+
+.logo-light {
+  color: var(--light-white);
+}
+
+.footer {
+  color: var(--light-white);
+}
